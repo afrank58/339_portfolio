@@ -59,36 +59,126 @@ nav a:hover{
     grid-row-gap: 20px;
 }   
 
+
 /* ALL IMAGE STYLING HERE */
-img{
-    display: grid;
-    width: 25%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto;
+
+.about{
+    grid-column: 1/-1;
+    grid-row: 1/1;
 }
 
+.activities{
+    grid-column: 2/span 2;
+    grid-row: 3/4;
+}
 #headshot{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto; */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto;
-    grid-row-gap: 20px;
+    /* display: block; */
+    width: 60%;
+    /* overflow: hidden; */
     grid-column: 2/4;
-    grid-row: 1/-1;
+    grid-row: 2/3;
+}
+#monty{
+    /* display: block; */
+    width: 20%;
+    overflow: hidden;
+
 }
 #bighouse{
-    display: block;
-    width: 100%;
+    /* display: block; */
+    width: 20%;
+    overflow: hidden;
+    grid-column: 1/1;
+    grid-row: 1/-1;
 }
+#manor{
+    /* display: block; */
+    width: 20%;
+    overflow: hidden;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#family{
+    /* display: block; */
+    width: 20%;
+    overflow: hidden;
+}
+
+#wilmas{
+    /* display: block; */
+    width: 20%;
+    overflow: hidden;
+}
+
+#arb{
+    /* display: block; */
+    width: 20%;
+    overflow: hidden;
+}
+
+#jacket{
+    /* display: block; */
+    width: 20%;
+    overflow: hidden;
+}
+
+#rainbow{
+    /* display: block; */
+    width: 20%;
+    overflow: hidden;
+}
+
+#sunset{
+    /* display: block; */
+    width: 20%;
+    overflow: hidden;
+}
+
+#GM{
+    width: 20%;
+}
+
+#morningbrew{
+    width: 20%;
+}
+
+#tennis{
+    width: 15%;
+}
+#leanin{
+    width: 10%;
+}
+
+#ACS{
+    width: 10%;
+}
+
+#chio{
+    width: 10%;
+}
+/* not working */
+/* #microsoft_text{
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+} */
 #microsoft{
-    display:block;
-    width: 15%
+    /* display:block; */
+    width: 10%;
+    grid-column:1/2;
+    grid-row: 2/3;
 }
+
+/* not working */
+#adobe_text{
+    display: grid;
+}
+
 #adobe{
-    display:block;
-    width: 15%
+    /* display:block; */
+    display: grid;
+    width: 10%;
 }
 
 
